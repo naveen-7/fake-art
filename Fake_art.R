@@ -1,13 +1,10 @@
 ---
-  title: "fake_art"
+title: "fake_art"
 author: 'Naveen Sendhilnathan'
 date: "12/08/2018"
-output:
-  pdf_document: default
-word_document: default
 ---
   
-  setwd('/Users/Naveen/Dropbox (Personal)/PROJECT')
+ setwd('/Users/Naveen/Dropbox (Personal)/PROJECT')
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
