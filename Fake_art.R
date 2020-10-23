@@ -9,8 +9,7 @@ date: "12/08/2018"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-NOTE: In this project I have tried several models including random forest, bagging, boosting, svm, logarthimic regression, naive basyes, ridge regression and neural network. Each model had its own pros and cons. Finally, bagging nad random forest gave me the best estimate. Therefore, I have commented out several models that didnt quite give good results.
+NOTE: Here I have tried several models including random forest, bagging, boosting, svm, logarthimic regression, naive basyes, ridge regression and neural network. Each model had its own pros and cons. Finally, bagging nad random forest gave me the best estimate. Therefore, I have commented out several models that didnt quite give good results.
 
 
 ##1
@@ -42,8 +41,6 @@ trn_ind = ind[1:round(0.6*N)]
 cv_ind = ind[(round(0.6*N)+1):round(0.8*N)]
 tst_ind = ind[(round(0.8*N)+1):N]
 TST_ind = (N+1):M
-
-
 
 ```
 
